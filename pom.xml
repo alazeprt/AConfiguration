@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>top.alazeprt.aconfiguration</groupId>
 	<artifactId>AConfiguration</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,6 +37,27 @@
 						<goals>
 							<goal>single</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>3.5.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<relocations>
+								<relocation>
+									<pattern>org.yaml.snakeyaml</pattern>
+									<shadedPattern>top.alazeprt.aconfiguration.lib.snakeyaml</shadedPattern>
+								</relocation>
+							</relocations>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
