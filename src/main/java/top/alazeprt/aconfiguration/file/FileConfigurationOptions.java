@@ -1,6 +1,6 @@
 package top.alazeprt.aconfiguration.file;
 
-import cc.summermc.bukkitYaml.*;
+import top.alazeprt.aconfiguration.*;
 import top.alazeprt.aconfiguration.Configuration;
 import top.alazeprt.aconfiguration.MemoryConfiguration;
 import top.alazeprt.aconfiguration.MemoryConfigurationOptions;
