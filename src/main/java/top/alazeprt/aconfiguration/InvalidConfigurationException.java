@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml;
+package top.alazeprt.aconfiguration;
 
 /**
  * Exception thrown when attempting to load an invalid {@link Configuration}

@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml.util;
+package top.alazeprt.aconfiguration.util;
 
 import java.io.File;
 import java.io.IOException;

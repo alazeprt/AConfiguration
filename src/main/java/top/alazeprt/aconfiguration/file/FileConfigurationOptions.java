@@ -1,6 +1,9 @@
-package cc.summermc.bukkitYaml.file;
+package top.alazeprt.aconfiguration.file;
 
 import cc.summermc.bukkitYaml.*;
+import top.alazeprt.aconfiguration.Configuration;
+import top.alazeprt.aconfiguration.MemoryConfiguration;
+import top.alazeprt.aconfiguration.MemoryConfigurationOptions;
 
 /**
  * Various settings for controlling the input and output of a {@link
@@ -74,7 +77,7 @@ public class FileConfigurationOptions extends MemoryConfigurationOptions {
      * <p>
      * If this is true, if a default {@link FileConfiguration} is passed to
      * {@link
-     * FileConfiguration#setDefaults(cc.summermc.bukkitYaml.Configuration)}
+     * FileConfiguration#setDefaults(Configuration)}
      * then upon saving it will use the header from that config, instead of
      * the one provided here.
      * <p>
@@ -96,7 +99,7 @@ public class FileConfigurationOptions extends MemoryConfigurationOptions {
      * <p>
      * If this is true, if a default {@link FileConfiguration} is passed to
      * {@link
-     * FileConfiguration#setDefaults(cc.summermc.bukkitYaml.Configuration)}
+     * FileConfiguration#setDefaults(Configuration)}
      * then upon saving it will use the header from that config, instead of
      * the one provided here.
      * <p>

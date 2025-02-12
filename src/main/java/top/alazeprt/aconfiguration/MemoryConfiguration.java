@@ -1,8 +1,8 @@
-package cc.summermc.bukkitYaml;
+package top.alazeprt.aconfiguration;
 
 import java.util.Map;
 
-import cc.summermc.bukkitYaml.util.Validate;
+import top.alazeprt.aconfiguration.util.Validate;
 
 /**
  * This is a {@link Configuration} implementation that does not save or load

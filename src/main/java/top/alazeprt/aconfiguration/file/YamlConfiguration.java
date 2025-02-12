@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml.file;
+package top.alazeprt.aconfiguration.file;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,10 +14,10 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.error.YAMLException;
 import org.yaml.snakeyaml.representer.Representer;
 
-import cc.summermc.bukkitYaml.Configuration;
-import cc.summermc.bukkitYaml.ConfigurationSection;
-import cc.summermc.bukkitYaml.InvalidConfigurationException;
-import cc.summermc.bukkitYaml.util.Validate;
+import top.alazeprt.aconfiguration.Configuration;
+import top.alazeprt.aconfiguration.ConfigurationSection;
+import top.alazeprt.aconfiguration.InvalidConfigurationException;
+import top.alazeprt.aconfiguration.util.Validate;
 
 /**
  * An implementation of {@link Configuration} which saves all files in Yaml.

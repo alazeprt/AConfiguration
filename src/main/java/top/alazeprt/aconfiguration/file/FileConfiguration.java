@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml.file;
+package top.alazeprt.aconfiguration.file;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,12 +15,12 @@ import java.nio.charset.Charset;
 
 import org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder;
 
-import cc.summermc.bukkitYaml.Configuration;
-import cc.summermc.bukkitYaml.InvalidConfigurationException;
-import cc.summermc.bukkitYaml.MemoryConfiguration;
-import cc.summermc.bukkitYaml.util.Charsets;
-import cc.summermc.bukkitYaml.util.Files;
-import cc.summermc.bukkitYaml.util.Validate;
+import top.alazeprt.aconfiguration.Configuration;
+import top.alazeprt.aconfiguration.InvalidConfigurationException;
+import top.alazeprt.aconfiguration.MemoryConfiguration;
+import top.alazeprt.aconfiguration.util.Charsets;
+import top.alazeprt.aconfiguration.util.Files;
+import top.alazeprt.aconfiguration.util.Validate;
 
 /**
  * This is a base class for all File based implementations of {@link

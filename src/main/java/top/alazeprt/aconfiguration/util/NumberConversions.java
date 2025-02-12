@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml.util;
+package top.alazeprt.aconfiguration.util;
 
 /**
  * Utils for casting number types to other number types

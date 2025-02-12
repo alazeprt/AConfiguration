@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cc.summermc.bukkitYaml.util;
+package top.alazeprt.aconfiguration.util;
 
 import java.nio.charset.Charset;
 

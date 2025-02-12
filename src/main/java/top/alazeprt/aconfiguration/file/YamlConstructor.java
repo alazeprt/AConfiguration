@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml.file;
+package top.alazeprt.aconfiguration.file;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

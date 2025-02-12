@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml;
+package top.alazeprt.aconfiguration;
 
 import java.util.Map;
 
@@ -44,7 +44,7 @@ public interface Configuration extends ConfigurationSection {
      * This method will not hold a reference to the specified Configuration,
      * nor will it automatically update if that Configuration ever changes. If
      * you require this, you should set the default source with {@link
-     * #setDefaults(cc.summermc.bukkitYaml.Configuration)}.
+     * #setDefaults(Configuration)}.
      *
      * @param defaults A configuration holding a list of defaults to copy.
      * @throws IllegalArgumentException Thrown if defaults is null or this.

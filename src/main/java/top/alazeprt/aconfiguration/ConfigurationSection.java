@@ -1,4 +1,4 @@
-package cc.summermc.bukkitYaml;
+package top.alazeprt.aconfiguration;
 
 import java.util.Map;
 import java.util.Set;

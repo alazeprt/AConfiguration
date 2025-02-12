@@ -1,6 +1,6 @@
-package cc.summermc.bukkitYaml;
+package top.alazeprt.aconfiguration;
 
-import static cc.summermc.bukkitYaml.util.NumberConversions.*;
+import static top.alazeprt.aconfiguration.util.NumberConversions.*;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import cc.summermc.bukkitYaml.util.Validate;
+import top.alazeprt.aconfiguration.util.Validate;
 
 /**
  * A type of {@link ConfigurationSection} that is stored in memory.

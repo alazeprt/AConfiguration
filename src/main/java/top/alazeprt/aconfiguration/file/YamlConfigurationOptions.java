@@ -1,6 +1,6 @@
-package cc.summermc.bukkitYaml.file;
+package top.alazeprt.aconfiguration.file;
 
-import cc.summermc.bukkitYaml.util.Validate;
+import top.alazeprt.aconfiguration.util.Validate;
 
 /**
  * Various settings for controlling the input and output of a {@link
